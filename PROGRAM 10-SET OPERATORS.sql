@@ -1,0 +1,15 @@
+SELECT Name FROM Student1
+UNION
+SELECT Name FROM Student2;
+
+SELECT Name FROM Student1
+UNION ALL
+SELECT Name FROM Student2;
+
+SELECT Name FROM Student1
+INTERSECT
+SELECT Name FROM Student2;
+
+SELECT Name FROM Student1
+MINUS
+SELECT Name FROM Student2;
